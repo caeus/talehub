@@ -2,7 +2,7 @@
 import mill._
 import mill.scalalib._
 
-def hey:String = "Hola"
+
 
 object main extends ScalaModule {
   override def scalaVersion = "2.12.4"
