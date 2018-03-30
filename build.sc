@@ -16,7 +16,8 @@ object main extends ScalaModule {
     ivy"com.typesafe.akka::akka-http:10.0.11",
     ivy"org.eclipse.jgit:org.eclipse.jgit:4.10.0.201712302008-r",
     ivy"org.typelevel::cats-core:1.0.1",
-    ivy"org.typelevel::cats-free:1.0.1"
+    ivy"org.typelevel::cats-free:1.0.1",
+    ivy"com.softwaremill.common::tagging::2.2.1"
   )
 
   object test extends Tests {
